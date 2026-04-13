@@ -1,0 +1,148 @@
+[32mINFO    [0m project:utils.py:60 --Запуск браузера - Chromium--
+[32mINFO    [0m project:utils.py:60 --Запуск браузера - Firefox--
+[32mINFO    [0m project:utils.py:60 ==================================================
+[32mINFO    [0m project:utils.py:60 ------Браузер - Chromium-----
+[32mINFO    [0m project:utils.py:60 ================ Modul Name:Auth_page ================
+[32mINFO    [0m project:utils.py:60 🔐 Authorization:
+[32mINFO    [0m project:utils.py:60 Input Login:
+[32mINFO    [0m project:utils.py:72 	Input Login
+[32mINFO    [0m project:utils.py:60 Input Password:
+[32mINFO    [0m project:utils.py:72 	Input Password
+[32mINFO    [0m project:utils.py:60 Login Button:
+[32mINFO    [0m project:utils.py:66 	Click Login Button
+[32mINFO    [0m project:utils.py:60 Check Success Login:
+[32mINFO    [0m project:utils.py:72 	Successful login - title Swag Labs
+[32mINFO    [0m project:utils.py:60 Авторизация УСПЕШНА!
+[32mINFO    [0m project:utils.py:60 ==================================================
+[32mINFO    [0m project:utils.py:60 ================ Modul Name:Product_Catalog_Page ================
+[32mINFO    [0m project:utils.py:60 🌐 Current URL: https://www.saucedemo.com/inventory.html
+[32mINFO    [0m project:utils.py:60 Adding Products to the Cart:
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-backpack"]
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bike-light"]
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bolt-t-shirt"]
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-fleece-jacket"]
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-onesie"]
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]
+[32mINFO    [0m project:utils.py:60 Switch to Cart:
+[32mINFO    [0m project:utils.py:60 ==================================================
+[32mINFO    [0m project:utils.py:60 ================ Modul Name:Cart ================
+[32mINFO    [0m project:utils.py:60 🌐 Current URL: https://www.saucedemo.com/cart.html
+[32mINFO    [0m project:utils.py:60 Check Products in the Cart:
+[32mINFO    [0m project:utils.py:60 ==================================================
+[32mINFO    [0m project:utils.py:60 ------Браузер - Firefox-----
+[32mINFO    [0m project:utils.py:60 ================ Modul Name:Auth_page ================
+[32mINFO    [0m project:utils.py:60 🔐 Authorization:
+[32mINFO    [0m project:utils.py:60 Input Login:
+[32mINFO    [0m project:utils.py:72 	Input Login
+[32mINFO    [0m project:utils.py:60 Input Password:
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Backpack) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Backpack - Цена(['$29.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Bike Light) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Bike Light - Цена(['$9.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Bolt T-Shirt) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Bolt T-Shirt - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Fleece Jacket) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Fleece Jacket - Цена(['$49.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Onesie) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Onesie - Цена(['$7.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Test.allTheThings() T-Shirt (Red)) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Test.allTheThings() T-Shirt (Red) - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:60 Checkout Button:
+[32mINFO    [0m project:utils.py:72 	Input Password
+[32mINFO    [0m project:utils.py:60 Login Button:
+[32mINFO    [0m project:utils.py:66 Click Checkout Button:
+[32mINFO    [0m project:utils.py:72 	Check Click Checkout Button - GOOD
+[32mINFO    [0m project:utils.py:60 Input User Info:
+[32mINFO    [0m project:utils.py:66 	Click Login Button
+[32mINFO    [0m project:utils.py:60 Check Success Login:
+[32mINFO    [0m project:utils.py:72 	User info filled
+[32mINFO    [0m project:utils.py:60 Button Continue:
+[32mINFO    [0m project:utils.py:66 Button Continue:
+[32mINFO    [0m project:utils.py:72 	Successful login - title Swag Labs
+[32mINFO    [0m project:utils.py:60 Авторизация УСПЕШНА!
+[32mINFO    [0m project:utils.py:60 ==================================================
+[32mINFO    [0m project:utils.py:60 ================ Modul Name:Product_Catalog_Page ================
+[32mINFO    [0m project:utils.py:60 🌐 Current URL: https://www.saucedemo.com/inventory.html
+[32mINFO    [0m project:utils.py:60 Adding Products to the Cart:
+[32mINFO    [0m project:utils.py:72 	Click Continue Button
+[32mINFO    [0m project:utils.py:60 ==================================================
+[32mINFO    [0m project:utils.py:60 ================ Modul Name:Final ================
+[32mINFO    [0m project:utils.py:60 🌐 Current URL: https://www.saucedemo.com/checkout-step-two.html
+[32mINFO    [0m project:utils.py:60 Check Products in the Final Page:
+[31m[1mERROR   [0m project:utils.py:84 'FinalPage'
+[32mINFO    [0m project:utils.py:60 Total Sum:
+[31m[1mERROR   [0m project:utils.py:84 Total sum mismatch: calculated=0, page=129.94
+[32mINFO    [0m project:utils.py:60 Finish Button:
+[32mINFO    [0m project:utils.py:66 Click Finish Button:
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-backpack"]
+[32mINFO    [0m project:utils.py:72 	Check Click Finish Button - GOOD
+[32mINFO    [0m project:utils.py:60 Button Back Home:
+[32mINFO    [0m project:utils.py:66 Click Back Home Button:
+[32mINFO    [0m project:utils.py:72 	Check Click Back Home Button - GOOD
+[32mINFO    [0m project:utils.py:60 Logout:
+[32mINFO    [0m project:utils.py:66 	Click Menu Button
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bike-light"]
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bolt-t-shirt"]
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-fleece-jacket"]
+[32mINFO    [0m project:utils.py:66 	Click Logout Button
+[32mINFO    [0m project:utils.py:72 		Check Logout - GOOD
+[32mINFO    [0m project:utils.py:60 
+--Закрытие браузера - Chromium--
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-sauce-labs-onesie"]
+[32mINFO    [0m project:utils.py:72 	Add to cart OK: [data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]
+[32mINFO    [0m project:utils.py:60 Switch to Cart:
+[32mINFO    [0m project:utils.py:60 ==================================================
+[32mINFO    [0m project:utils.py:60 ================ Modul Name:Cart ================
+[32mINFO    [0m project:utils.py:60 🌐 Current URL: https://www.saucedemo.com/cart.html
+[32mINFO    [0m project:utils.py:60 Check Products in the Cart:
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Backpack) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Backpack - Цена(['$29.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Bike Light) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Bike Light - Цена(['$9.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Bolt T-Shirt) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Bolt T-Shirt - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Fleece Jacket) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Fleece Jacket - Цена(['$49.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Sauce Labs Onesie) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Sauce Labs Onesie - Цена(['$7.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:72 	Название(Test.allTheThings() T-Shirt (Red)) с Каталога и Корзины совпадают
+[32mINFO    [0m project:utils.py:72 	Test.allTheThings() T-Shirt (Red) - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+[32mINFO    [0m project:utils.py:60 Checkout Button:
+[32mINFO    [0m project:utils.py:66 Click Checkout Button:
+[32mINFO    [0m project:utils.py:72 	Check Click Checkout Button - GOOD
+[32mINFO    [0m project:utils.py:60 Input User Info:
+[32mINFO    [0m project:utils.py:72 	User info filled
+[32mINFO    [0m project:utils.py:60 Button Continue:
+[32mINFO    [0m project:utils.py:66 Button Continue:
+[32mINFO    [0m project:utils.py:72 	Click Continue Button
+[32mINFO    [0m project:utils.py:60 ==================================================
+[32mINFO    [0m project:utils.py:60 ================ Modul Name:Final ================
+[32mINFO    [0m project:utils.py:60 🌐 Current URL: https://www.saucedemo.com/checkout-step-two.html
+[32mINFO    [0m project:utils.py:60 Check Products in the Final Page:
+[31m[1mERROR   [0m project:utils.py:84 'FinalPage'
+[32mINFO    [0m project:utils.py:60 Total Sum:
+[31m[1mERROR   [0m project:utils.py:84 Total sum mismatch: calculated=0, page=129.94
+[32mINFO    [0m project:utils.py:60 Finish Button:
+[32mINFO    [0m project:utils.py:66 Click Finish Button:
+[32mINFO    [0m project:utils.py:72 	Check Click Finish Button - GOOD
+[32mINFO    [0m project:utils.py:60 Button Back Home:
+[32mINFO    [0m project:utils.py:66 Click Back Home Button:
+[32mINFO    [0m project:utils.py:72 	Check Click Back Home Button - GOOD
+[32mINFO    [0m project:utils.py:60 Logout:
+[32mINFO    [0m project:utils.py:66 	Click Menu Button
+[32mINFO    [0m project:utils.py:66 	Click Logout Button
+[32mINFO    [0m project:utils.py:72 		Check Logout - GOOD
+[32mINFO    [0m project:utils.py:60 
+--Закрытие браузера - Firefox--

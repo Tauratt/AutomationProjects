@@ -1,0 +1,379 @@
+2026-04-11 09:53:54,767 - INFO - --Запуск браузера - Chromium--
+2026-04-11 09:53:54,791 - INFO - --Запуск браузера - Firefox--
+2026-04-11 09:54:13,840 - INFO - ==================================================
+2026-04-11 09:54:13,841 - INFO - ------Браузер - Chromium-----
+2026-04-11 09:54:13,868 - INFO - ================ Modul Name:Auth_page ================
+2026-04-11 09:54:13,869 - INFO - 🔐 Authorization:
+2026-04-11 09:54:13,883 - INFO - Input Login:
+2026-04-11 09:54:14,379 - INFO - 	Input Login
+2026-04-11 09:54:14,380 - INFO - Input Password:
+2026-04-11 09:54:14,483 - INFO - 	Input Password
+2026-04-11 09:54:14,485 - INFO - Login Button:
+2026-04-11 09:54:14,759 - INFO - 	Click Login Button
+2026-04-11 09:54:14,762 - INFO - Check Success Login:
+2026-04-11 09:54:14,816 - INFO - 	Successful login - title Swag Labs
+2026-04-11 09:54:14,817 - INFO - Авторизация УСПЕШНА!
+2026-04-11 09:54:14,817 - INFO - ==================================================
+2026-04-11 09:54:14,818 - INFO - ================ Modul Name:Product_Catalog_Page ================
+2026-04-11 09:54:14,819 - INFO - 🌐 Current URL: https://www.saucedemo.com/inventory.html
+2026-04-11 09:54:14,819 - INFO - Adding Products to the Cart:
+2026-04-11 09:54:15,139 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-backpack"]
+2026-04-11 09:54:15,374 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bike-light"]
+2026-04-11 09:54:15,581 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bolt-t-shirt"]
+2026-04-11 09:54:15,743 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-fleece-jacket"]
+2026-04-11 09:54:15,911 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-onesie"]
+2026-04-11 09:54:16,068 - INFO - 	Add to cart OK: [data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]
+2026-04-11 09:54:16,068 - INFO - Switch to Cart:
+2026-04-11 09:54:17,230 - INFO - ==================================================
+2026-04-11 09:54:17,230 - INFO - ================ Modul Name:Cart ================
+2026-04-11 09:54:17,230 - INFO - 🌐 Current URL: https://www.saucedemo.com/cart.html
+2026-04-11 09:54:17,231 - INFO - Check Products in the Cart:
+2026-04-11 09:54:17,411 - INFO - 	Название(Sauce Labs Backpack) с Каталога и Корзины совпадают
+2026-04-11 09:54:17,411 - INFO - 	Sauce Labs Backpack - Цена(['$29.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:17,411 - INFO - 	Название(Sauce Labs Bike Light) с Каталога и Корзины совпадают
+2026-04-11 09:54:17,411 - INFO - 	Sauce Labs Bike Light - Цена(['$9.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:17,412 - INFO - 	Название(Sauce Labs Bolt T-Shirt) с Каталога и Корзины совпадают
+2026-04-11 09:54:17,412 - INFO - 	Sauce Labs Bolt T-Shirt - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:17,412 - INFO - 	Название(Sauce Labs Fleece Jacket) с Каталога и Корзины совпадают
+2026-04-11 09:54:17,412 - INFO - 	Sauce Labs Fleece Jacket - Цена(['$49.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:17,412 - INFO - 	Название(Sauce Labs Onesie) с Каталога и Корзины совпадают
+2026-04-11 09:54:17,412 - INFO - 	Sauce Labs Onesie - Цена(['$7.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:17,413 - INFO - 	Название(Test.allTheThings() T-Shirt (Red)) с Каталога и Корзины совпадают
+2026-04-11 09:54:17,413 - INFO - 	Test.allTheThings() T-Shirt (Red) - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:17,413 - INFO - Checkout Button:
+2026-04-11 09:54:17,504 - INFO - Click Checkout Button:
+2026-04-11 09:54:17,522 - INFO - 	Check Click Checkout Button - GOOD
+2026-04-11 09:54:17,523 - INFO - Input User Info:
+2026-04-11 09:54:17,701 - INFO - 	User info filled
+2026-04-11 09:54:17,702 - INFO - Button Continue:
+2026-04-11 09:54:17,702 - INFO - Button Continue:
+2026-04-11 09:54:17,860 - INFO - 	Click Continue Button
+2026-04-11 09:54:17,862 - INFO - ==================================================
+2026-04-11 09:54:17,863 - INFO - ================ Modul Name:Final ================
+2026-04-11 09:54:17,864 - INFO - 🌐 Current URL: https://www.saucedemo.com/checkout-step-two.html
+2026-04-11 09:54:17,865 - INFO - Check Products in the Final Page:
+2026-04-11 09:54:17,936 - ERROR - 'FinalPage'
+2026-04-11 09:54:17,937 - INFO - Total Sum:
+2026-04-11 09:54:17,957 - ERROR - Total sum mismatch: calculated=0, page=129.94
+2026-04-11 09:54:17,958 - INFO - Finish Button:
+2026-04-11 09:54:18,052 - INFO - Click Finish Button:
+2026-04-11 09:54:18,069 - INFO - 	Check Click Finish Button - GOOD
+2026-04-11 09:54:18,069 - INFO - Button Back Home:
+2026-04-11 09:54:18,168 - INFO - Click Back Home Button:
+2026-04-11 09:54:18,184 - INFO - 	Check Click Back Home Button - GOOD
+2026-04-11 09:54:18,184 - INFO - Logout:
+2026-04-11 09:54:18,256 - INFO - 	Click Menu Button
+2026-04-11 09:54:19,344 - INFO - 	Click Logout Button
+2026-04-11 09:54:19,366 - INFO - 		Check Logout - GOOD
+2026-04-11 09:54:19,367 - INFO - 
+--Закрытие браузера - Chromium--
+2026-04-11 09:54:21,462 - INFO - ==================================================
+2026-04-11 09:54:21,462 - INFO - ------Браузер - Firefox-----
+2026-04-11 09:54:21,463 - INFO - ================ Modul Name:Auth_page ================
+2026-04-11 09:54:21,463 - INFO - 🔐 Authorization:
+2026-04-11 09:54:21,464 - INFO - Input Login:
+2026-04-11 09:54:21,770 - INFO - 	Input Login
+2026-04-11 09:54:21,772 - INFO - Input Password:
+2026-04-11 09:54:21,921 - INFO - 	Input Password
+2026-04-11 09:54:21,922 - INFO - Login Button:
+2026-04-11 09:54:22,293 - INFO - 	Click Login Button
+2026-04-11 09:54:22,294 - INFO - Check Success Login:
+2026-04-11 09:54:22,317 - INFO - 	Successful login - title Swag Labs
+2026-04-11 09:54:22,317 - INFO - Авторизация УСПЕШНА!
+2026-04-11 09:54:22,318 - INFO - ==================================================
+2026-04-11 09:54:22,319 - INFO - ================ Modul Name:Product_Catalog_Page ================
+2026-04-11 09:54:22,319 - INFO - 🌐 Current URL: https://www.saucedemo.com/inventory.html
+2026-04-11 09:54:22,322 - INFO - Adding Products to the Cart:
+2026-04-11 09:54:22,749 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-backpack"]
+2026-04-11 09:54:23,216 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bike-light"]
+2026-04-11 09:54:23,570 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bolt-t-shirt"]
+2026-04-11 09:54:23,853 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-fleece-jacket"]
+2026-04-11 09:54:24,153 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-onesie"]
+2026-04-11 09:54:24,412 - INFO - 	Add to cart OK: [data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]
+2026-04-11 09:54:24,412 - INFO - Switch to Cart:
+2026-04-11 09:54:25,612 - INFO - ==================================================
+2026-04-11 09:54:25,612 - INFO - ================ Modul Name:Cart ================
+2026-04-11 09:54:25,612 - INFO - 🌐 Current URL: https://www.saucedemo.com/cart.html
+2026-04-11 09:54:25,613 - INFO - Check Products in the Cart:
+2026-04-11 09:54:25,892 - INFO - 	Название(Sauce Labs Backpack) с Каталога и Корзины совпадают
+2026-04-11 09:54:25,893 - INFO - 	Sauce Labs Backpack - Цена(['$29.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:25,893 - INFO - 	Название(Sauce Labs Bike Light) с Каталога и Корзины совпадают
+2026-04-11 09:54:25,893 - INFO - 	Sauce Labs Bike Light - Цена(['$9.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:25,893 - INFO - 	Название(Sauce Labs Bolt T-Shirt) с Каталога и Корзины совпадают
+2026-04-11 09:54:25,893 - INFO - 	Sauce Labs Bolt T-Shirt - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:25,894 - INFO - 	Название(Sauce Labs Fleece Jacket) с Каталога и Корзины совпадают
+2026-04-11 09:54:25,894 - INFO - 	Sauce Labs Fleece Jacket - Цена(['$49.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:25,894 - INFO - 	Название(Sauce Labs Onesie) с Каталога и Корзины совпадают
+2026-04-11 09:54:25,894 - INFO - 	Sauce Labs Onesie - Цена(['$7.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:25,894 - INFO - 	Название(Test.allTheThings() T-Shirt (Red)) с Каталога и Корзины совпадают
+2026-04-11 09:54:25,894 - INFO - 	Test.allTheThings() T-Shirt (Red) - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 09:54:25,894 - INFO - Checkout Button:
+2026-04-11 09:54:26,046 - INFO - Click Checkout Button:
+2026-04-11 09:54:26,068 - INFO - 	Check Click Checkout Button - GOOD
+2026-04-11 09:54:26,068 - INFO - Input User Info:
+2026-04-11 09:54:26,321 - INFO - 	User info filled
+2026-04-11 09:54:26,321 - INFO - Button Continue:
+2026-04-11 09:54:26,321 - INFO - Button Continue:
+2026-04-11 09:54:26,465 - INFO - 	Click Continue Button
+2026-04-11 09:54:26,467 - INFO - ==================================================
+2026-04-11 09:54:26,468 - INFO - ================ Modul Name:Final ================
+2026-04-11 09:54:26,469 - INFO - 🌐 Current URL: https://www.saucedemo.com/checkout-step-two.html
+2026-04-11 09:54:26,470 - INFO - Check Products in the Final Page:
+2026-04-11 09:54:26,536 - ERROR - 'FinalPage'
+2026-04-11 09:54:26,537 - INFO - Total Sum:
+2026-04-11 09:54:26,561 - ERROR - Total sum mismatch: calculated=0, page=129.94
+2026-04-11 09:54:26,561 - INFO - Finish Button:
+2026-04-11 09:54:26,706 - INFO - Click Finish Button:
+2026-04-11 09:54:26,725 - INFO - 	Check Click Finish Button - GOOD
+2026-04-11 09:54:26,725 - INFO - Button Back Home:
+2026-04-11 09:54:26,895 - INFO - Click Back Home Button:
+2026-04-11 09:54:26,914 - INFO - 	Check Click Back Home Button - GOOD
+2026-04-11 09:54:26,915 - INFO - Logout:
+2026-04-11 09:54:27,052 - INFO - 	Click Menu Button
+2026-04-11 09:54:28,099 - INFO - 	Click Logout Button
+2026-04-11 09:54:28,114 - INFO - 		Check Logout - GOOD
+2026-04-11 09:54:28,114 - INFO - 
+--Закрытие браузера - Firefox--
+2026-04-11 10:05:01,344 - INFO - --Запуск браузера - Chromium--
+2026-04-11 10:05:01,359 - INFO - --Запуск браузера - Firefox--
+2026-04-11 10:05:34,036 - INFO - 
+--Закрытие браузера - Chromium--
+2026-04-11 10:05:39,001 - INFO - 
+--Закрытие браузера - Firefox--
+2026-04-11 10:05:49,838 - INFO - --Запуск браузера - Chromium--
+2026-04-11 10:05:49,855 - INFO - --Запуск браузера - Firefox--
+2026-04-11 10:06:10,981 - INFO - ==================================================
+2026-04-11 10:06:10,982 - INFO - ------Браузер - Chromium-----
+2026-04-11 10:06:10,982 - INFO - ================ Modul Name:Auth_page ================
+2026-04-11 10:06:10,983 - INFO - 🔐 Authorization:
+2026-04-11 10:06:10,985 - INFO - Input Login:
+2026-04-11 10:06:11,509 - INFO - 	Input Login
+2026-04-11 10:06:11,511 - INFO - Input Password:
+2026-04-11 10:06:11,590 - INFO - 	Input Password
+2026-04-11 10:06:11,591 - INFO - Login Button:
+2026-04-11 10:06:11,776 - INFO - 	Click Login Button
+2026-04-11 10:06:11,777 - INFO - Check Success Login:
+2026-04-11 10:06:11,794 - INFO - 	Successful login - title Swag Labs
+2026-04-11 10:06:11,796 - INFO - Авторизация УСПЕШНА!
+2026-04-11 10:06:11,799 - INFO - ==================================================
+2026-04-11 10:06:11,805 - INFO - ================ Modul Name:Product_Catalog_Page ================
+2026-04-11 10:06:11,806 - INFO - 🌐 Current URL: https://www.saucedemo.com/inventory.html
+2026-04-11 10:06:11,807 - INFO - Adding Products to the Cart:
+2026-04-11 10:06:12,164 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-backpack"]
+2026-04-11 10:06:12,614 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bike-light"]
+2026-04-11 10:06:12,843 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bolt-t-shirt"]
+2026-04-11 10:06:13,052 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-fleece-jacket"]
+2026-04-11 10:06:13,390 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-onesie"]
+2026-04-11 10:06:13,662 - INFO - 	Add to cart OK: [data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]
+2026-04-11 10:06:13,663 - INFO - Switch to Cart:
+2026-04-11 10:06:14,868 - INFO - ==================================================
+2026-04-11 10:06:14,868 - INFO - ================ Modul Name:Cart ================
+2026-04-11 10:06:14,869 - INFO - 🌐 Current URL: https://www.saucedemo.com/cart.html
+2026-04-11 10:06:14,869 - INFO - Check Products in the Cart:
+2026-04-11 10:06:15,282 - INFO - 	Название(Sauce Labs Backpack) с Каталога и Корзины совпадают
+2026-04-11 10:06:15,283 - INFO - 	Sauce Labs Backpack - Цена(['$29.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:15,284 - INFO - 	Название(Sauce Labs Bike Light) с Каталога и Корзины совпадают
+2026-04-11 10:06:15,284 - INFO - 	Sauce Labs Bike Light - Цена(['$9.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:15,284 - INFO - 	Название(Sauce Labs Bolt T-Shirt) с Каталога и Корзины совпадают
+2026-04-11 10:06:15,284 - INFO - 	Sauce Labs Bolt T-Shirt - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:15,285 - INFO - 	Название(Sauce Labs Fleece Jacket) с Каталога и Корзины совпадают
+2026-04-11 10:06:15,285 - INFO - 	Sauce Labs Fleece Jacket - Цена(['$49.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:15,285 - INFO - 	Название(Sauce Labs Onesie) с Каталога и Корзины совпадают
+2026-04-11 10:06:15,285 - INFO - 	Sauce Labs Onesie - Цена(['$7.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:15,286 - INFO - 	Название(Test.allTheThings() T-Shirt (Red)) с Каталога и Корзины совпадают
+2026-04-11 10:06:15,286 - INFO - 	Test.allTheThings() T-Shirt (Red) - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:15,286 - INFO - Checkout Button:
+2026-04-11 10:06:15,414 - INFO - Click Checkout Button:
+2026-04-11 10:06:15,444 - INFO - 	Check Click Checkout Button - GOOD
+2026-04-11 10:06:15,446 - INFO - Input User Info:
+2026-04-11 10:06:15,665 - INFO - 	User info filled
+2026-04-11 10:06:15,666 - INFO - Button Continue:
+2026-04-11 10:06:15,666 - INFO - Button Continue:
+2026-04-11 10:06:15,816 - INFO - 	Click Continue Button
+2026-04-11 10:06:15,817 - INFO - ==================================================
+2026-04-11 10:06:15,818 - INFO - ================ Modul Name:Final ================
+2026-04-11 10:06:15,818 - INFO - 🌐 Current URL: https://www.saucedemo.com/checkout-step-two.html
+2026-04-11 10:06:15,819 - INFO - Check Products in the Final Page:
+2026-04-11 10:06:15,873 - ERROR - 'FinalPage'
+2026-04-11 10:06:15,875 - INFO - Total Sum:
+2026-04-11 10:06:15,904 - ERROR - Total sum mismatch: calculated=0, page=129.94
+2026-04-11 10:06:15,905 - INFO - Finish Button:
+2026-04-11 10:06:16,085 - INFO - Click Finish Button:
+2026-04-11 10:06:16,155 - INFO - 	Check Click Finish Button - GOOD
+2026-04-11 10:06:16,156 - INFO - Button Back Home:
+2026-04-11 10:06:16,308 - INFO - Click Back Home Button:
+2026-04-11 10:06:16,326 - INFO - 	Check Click Back Home Button - GOOD
+2026-04-11 10:06:16,327 - INFO - Logout:
+2026-04-11 10:06:16,396 - INFO - 	Click Menu Button
+2026-04-11 10:06:17,491 - INFO - 	Click Logout Button
+2026-04-11 10:06:17,517 - INFO - 		Check Logout - GOOD
+2026-04-11 10:06:17,518 - INFO - 
+--Закрытие браузера - Chromium--
+2026-04-11 10:06:28,498 - INFO - 
+--Закрытие браузера - Firefox--
+2026-04-11 10:06:46,533 - INFO - --Запуск браузера - Chromium--
+2026-04-11 10:06:46,548 - INFO - --Запуск браузера - Firefox--
+2026-04-11 10:06:50,521 - INFO - ==================================================
+2026-04-11 10:06:50,527 - INFO - ------Браузер - Chromium-----
+2026-04-11 10:06:50,527 - INFO - ================ Modul Name:Auth_page ================
+2026-04-11 10:06:50,528 - INFO - 🔐 Authorization:
+2026-04-11 10:06:50,546 - INFO - Input Login:
+2026-04-11 10:06:50,867 - INFO - 	Input Login
+2026-04-11 10:06:50,868 - INFO - Input Password:
+2026-04-11 10:06:51,044 - INFO - 	Input Password
+2026-04-11 10:06:51,045 - INFO - Login Button:
+2026-04-11 10:06:51,580 - INFO - 	Click Login Button
+2026-04-11 10:06:51,581 - INFO - Check Success Login:
+2026-04-11 10:06:51,643 - INFO - 	Successful login - title Swag Labs
+2026-04-11 10:06:51,644 - INFO - Авторизация УСПЕШНА!
+2026-04-11 10:06:51,645 - INFO - ==================================================
+2026-04-11 10:06:51,647 - INFO - ================ Modul Name:Product_Catalog_Page ================
+2026-04-11 10:06:51,648 - INFO - 🌐 Current URL: https://www.saucedemo.com/inventory.html
+2026-04-11 10:06:51,649 - INFO - Adding Products to the Cart:
+2026-04-11 10:06:52,018 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-backpack"]
+2026-04-11 10:06:52,367 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bike-light"]
+2026-04-11 10:06:52,688 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bolt-t-shirt"]
+2026-04-11 10:06:53,000 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-fleece-jacket"]
+2026-04-11 10:06:53,172 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-onesie"]
+2026-04-11 10:06:53,332 - INFO - 	Add to cart OK: [data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]
+2026-04-11 10:06:53,334 - INFO - Switch to Cart:
+2026-04-11 10:06:54,495 - INFO - ==================================================
+2026-04-11 10:06:54,496 - INFO - ================ Modul Name:Cart ================
+2026-04-11 10:06:54,496 - INFO - 🌐 Current URL: https://www.saucedemo.com/cart.html
+2026-04-11 10:06:54,497 - INFO - Check Products in the Cart:
+2026-04-11 10:06:54,769 - INFO - 	Название(Sauce Labs Backpack) с Каталога и Корзины совпадают
+2026-04-11 10:06:54,770 - INFO - 	Sauce Labs Backpack - Цена(['$29.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:54,771 - INFO - 	Название(Sauce Labs Bike Light) с Каталога и Корзины совпадают
+2026-04-11 10:06:54,772 - INFO - 	Sauce Labs Bike Light - Цена(['$9.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:54,772 - INFO - 	Название(Sauce Labs Bolt T-Shirt) с Каталога и Корзины совпадают
+2026-04-11 10:06:54,773 - INFO - 	Sauce Labs Bolt T-Shirt - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:54,773 - INFO - 	Название(Sauce Labs Fleece Jacket) с Каталога и Корзины совпадают
+2026-04-11 10:06:54,773 - INFO - 	Sauce Labs Fleece Jacket - Цена(['$49.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:54,774 - INFO - 	Название(Sauce Labs Onesie) с Каталога и Корзины совпадают
+2026-04-11 10:06:54,774 - INFO - 	Sauce Labs Onesie - Цена(['$7.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:54,774 - INFO - 	Название(Test.allTheThings() T-Shirt (Red)) с Каталога и Корзины совпадают
+2026-04-11 10:06:54,775 - INFO - 	Test.allTheThings() T-Shirt (Red) - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:06:54,775 - INFO - Checkout Button:
+2026-04-11 10:06:54,979 - INFO - Click Checkout Button:
+2026-04-11 10:06:55,004 - INFO - 	Check Click Checkout Button - GOOD
+2026-04-11 10:06:55,005 - INFO - Input User Info:
+2026-04-11 10:06:55,262 - INFO - 	User info filled
+2026-04-11 10:06:55,263 - INFO - Button Continue:
+2026-04-11 10:06:55,263 - INFO - Button Continue:
+2026-04-11 10:06:55,415 - INFO - 	Click Continue Button
+2026-04-11 10:06:55,416 - INFO - ==================================================
+2026-04-11 10:06:55,417 - INFO - ================ Modul Name:Final ================
+2026-04-11 10:06:55,417 - INFO - 🌐 Current URL: https://www.saucedemo.com/checkout-step-two.html
+2026-04-11 10:06:55,418 - INFO - Check Products in the Final Page:
+2026-04-11 10:06:55,488 - ERROR - 'FinalPage'
+2026-04-11 10:06:55,489 - INFO - Total Sum:
+2026-04-11 10:06:55,519 - ERROR - Total sum mismatch: calculated=0, page=129.94
+2026-04-11 10:06:55,521 - INFO - Finish Button:
+2026-04-11 10:06:55,631 - INFO - Click Finish Button:
+2026-04-11 10:06:55,649 - INFO - 	Check Click Finish Button - GOOD
+2026-04-11 10:06:55,650 - INFO - Button Back Home:
+2026-04-11 10:06:55,788 - INFO - Click Back Home Button:
+2026-04-11 10:06:55,810 - INFO - 	Check Click Back Home Button - GOOD
+2026-04-11 10:06:55,811 - INFO - Logout:
+2026-04-11 10:06:55,895 - INFO - 	Click Menu Button
+2026-04-11 10:06:56,998 - INFO - 	Click Logout Button
+2026-04-11 10:06:57,013 - INFO - 		Check Logout - GOOD
+2026-04-11 10:06:57,014 - INFO - 
+--Закрытие браузера - Chromium--
+2026-04-11 10:06:59,702 - INFO - ==================================================
+2026-04-11 10:06:59,702 - INFO - ------Браузер - Firefox-----
+2026-04-11 10:06:59,703 - INFO - ================ Modul Name:Auth_page ================
+2026-04-11 10:06:59,704 - INFO - 🔐 Authorization:
+2026-04-11 10:06:59,706 - INFO - Input Login:
+2026-04-11 10:06:59,986 - INFO - 	Input Login
+2026-04-11 10:06:59,987 - INFO - Input Password:
+2026-04-11 10:07:00,192 - INFO - 	Input Password
+2026-04-11 10:07:00,193 - INFO - Login Button:
+2026-04-11 10:07:00,516 - INFO - 	Click Login Button
+2026-04-11 10:07:00,518 - INFO - Check Success Login:
+2026-04-11 10:07:00,553 - INFO - 	Successful login - title Swag Labs
+2026-04-11 10:07:00,553 - INFO - Авторизация УСПЕШНА!
+2026-04-11 10:07:00,555 - INFO - ==================================================
+2026-04-11 10:07:00,556 - INFO - ================ Modul Name:Product_Catalog_Page ================
+2026-04-11 10:07:00,556 - INFO - 🌐 Current URL: https://www.saucedemo.com/inventory.html
+2026-04-11 10:07:00,558 - INFO - Adding Products to the Cart:
+2026-04-11 10:07:01,183 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-backpack"]
+2026-04-11 10:07:01,519 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bike-light"]
+2026-04-11 10:07:01,813 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-bolt-t-shirt"]
+2026-04-11 10:07:02,130 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-fleece-jacket"]
+2026-04-11 10:07:02,455 - INFO - 	Add to cart OK: [data-test="add-to-cart-sauce-labs-onesie"]
+2026-04-11 10:07:02,843 - INFO - 	Add to cart OK: [data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]
+2026-04-11 10:07:02,844 - INFO - Switch to Cart:
+2026-04-11 10:07:04,108 - INFO - ==================================================
+2026-04-11 10:07:04,108 - INFO - ================ Modul Name:Cart ================
+2026-04-11 10:07:04,109 - INFO - 🌐 Current URL: https://www.saucedemo.com/cart.html
+2026-04-11 10:07:04,109 - INFO - Check Products in the Cart:
+2026-04-11 10:07:04,331 - INFO - 	Название(Sauce Labs Backpack) с Каталога и Корзины совпадают
+2026-04-11 10:07:04,332 - INFO - 	Sauce Labs Backpack - Цена(['$29.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:07:04,332 - INFO - 	Название(Sauce Labs Bike Light) с Каталога и Корзины совпадают
+2026-04-11 10:07:04,332 - INFO - 	Sauce Labs Bike Light - Цена(['$9.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:07:04,333 - INFO - 	Название(Sauce Labs Bolt T-Shirt) с Каталога и Корзины совпадают
+2026-04-11 10:07:04,333 - INFO - 	Sauce Labs Bolt T-Shirt - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:07:04,333 - INFO - 	Название(Sauce Labs Fleece Jacket) с Каталога и Корзины совпадают
+2026-04-11 10:07:04,333 - INFO - 	Sauce Labs Fleece Jacket - Цена(['$49.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:07:04,334 - INFO - 	Название(Sauce Labs Onesie) с Каталога и Корзины совпадают
+2026-04-11 10:07:04,334 - INFO - 	Sauce Labs Onesie - Цена(['$7.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:07:04,334 - INFO - 	Название(Test.allTheThings() T-Shirt (Red)) с Каталога и Корзины совпадают
+2026-04-11 10:07:04,334 - INFO - 	Test.allTheThings() T-Shirt (Red) - Цена(['$15.99']) с Каталога и Корзины совпадают
+
+2026-04-11 10:07:04,335 - INFO - Checkout Button:
+2026-04-11 10:07:04,477 - INFO - Click Checkout Button:
+2026-04-11 10:07:04,500 - INFO - 	Check Click Checkout Button - GOOD
+2026-04-11 10:07:04,502 - INFO - Input User Info:
+2026-04-11 10:07:04,808 - INFO - 	User info filled
+2026-04-11 10:07:04,809 - INFO - Button Continue:
+2026-04-11 10:07:04,809 - INFO - Button Continue:
+2026-04-11 10:07:04,963 - INFO - 	Click Continue Button
+2026-04-11 10:07:04,965 - INFO - ==================================================
+2026-04-11 10:07:04,965 - INFO - ================ Modul Name:Final ================
+2026-04-11 10:07:04,966 - INFO - 🌐 Current URL: https://www.saucedemo.com/checkout-step-two.html
+2026-04-11 10:07:04,967 - INFO - Check Products in the Final Page:
+2026-04-11 10:07:05,035 - ERROR - 'FinalPage'
+2026-04-11 10:07:05,036 - INFO - Total Sum:
+2026-04-11 10:07:05,062 - ERROR - Total sum mismatch: calculated=0, page=129.94
+2026-04-11 10:07:05,062 - INFO - Finish Button:
+2026-04-11 10:07:05,234 - INFO - Click Finish Button:
+2026-04-11 10:07:05,258 - INFO - 	Check Click Finish Button - GOOD
+2026-04-11 10:07:05,259 - INFO - Button Back Home:
+2026-04-11 10:07:05,465 - INFO - Click Back Home Button:
+2026-04-11 10:07:05,486 - INFO - 	Check Click Back Home Button - GOOD
+2026-04-11 10:07:05,487 - INFO - Logout:
+2026-04-11 10:07:05,680 - INFO - 	Click Menu Button
+2026-04-11 10:07:06,820 - INFO - 	Click Logout Button
+2026-04-11 10:07:06,840 - INFO - 		Check Logout - GOOD
+2026-04-11 10:07:06,841 - INFO - 
+--Закрытие браузера - Firefox--

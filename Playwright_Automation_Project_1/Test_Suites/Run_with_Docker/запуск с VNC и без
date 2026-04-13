@@ -1,0 +1,22 @@
+2. Как запускать
+Сервер + тесты (как сейчас):
+
+
+docker compose up -d playwright-server
+curl http://localhost:3000/json/version  # Running
+pytest tests/test_hello.py -q
+
+
+Когда нужен VNC:
+
+docker compose --profile debug up -d chromium-vnc
+
+Подключение:
+VNC‑клиент: localhost:5900.
+Браузер (web‑VNC): http://localhost:7900.
+
+
+Сейчас:
+
+стабильный официальный Playwright Server для автоматизации;
+отдельный VNC‑контейнер для визуальной отладки, не ломающий сервер.

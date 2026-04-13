@@ -1,0 +1,6 @@
+
+p.chromium.launch() = тип браузера + команда запустить локальный
+p.chromium.connect() = тип браузера + команда запустить удаленный, на сервере
+    Python (ПК) ──WebSocket ──> Playwright Server (Docker)
+                                ↓
+                           Например Chromium (Docker)
