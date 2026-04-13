@@ -1,0 +1,29 @@
+services:
+  playwright-server:
+    image: mcr.microsoft.com/playwright:v1.57.0-noble
+    container_name: playwright-server
+    init: true
+    ipc: host
+    user: pwuser
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/workspace/parallel  # ← Текущая папка (parallel) → /workspace/parallel
+      - ./reports:/workspace/parallel/reports
+      - ./videos:/workspace/parallel/videos
+    command: /bin/sh -c "npx -y playwright@1.57.0 run-server --port 3000 --host 0.0.0.0"
+
+  chromium-vnc:
+    image: digitronik/playwright-vnc:latest
+    container_name: chromium-vnc
+    ports:
+      - "5900:5900"   # VNC-клиент
+      - "7900:7900"   # noVNC в браузере
+    environment:
+      - VNC_PW=       # пустой пароль (для локальной отладки)
+
+    volumes:
+      - .:/home/pwuser/parallel  # parallel → /home/pwuser/parallel
+    working_dir: /home/pwuser/parallel
+    profiles:
+      - debug

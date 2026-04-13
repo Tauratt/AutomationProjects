@@ -1,0 +1,29 @@
+services:
+  playwright-server:
+    image: mcr.microsoft.com/playwright:v1.57.0-noble
+    container_name: playwright-server
+    init: true
+    ipc: host
+    user: pwuser
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/workspace/Sync_consistentTest  # ← Текущая папка (Sync_consistentTest) → /workspace/Sync_consistentTest
+      - ./reports:/workspace/Sync_consistentTest/reports
+      - ./videos:/workspace/Sync_consistentTest/videos
+    command: /bin/sh -c "npx -y playwright@1.57.0 run-server --port 3000 --host 0.0.0.0"
+
+  chromium-vnc:
+    image: digitronik/playwright-vnc:latest
+    container_name: chromium-vnc
+    ports:
+      - "5900:5900"   # VNC-клиент
+      - "7900:7900"   # noVNC в браузере
+    environment:
+      - VNC_PW=       # пустой пароль (для локальной отладки)
+
+    volumes:
+      - .:/home/pwuser/Sync_consistentTest  # Sync_consistentTest → /home/pwuser/Sync_consistentTest
+    working_dir: /home/pwuser/Sync_consistentTest
+    profiles:
+      - debug

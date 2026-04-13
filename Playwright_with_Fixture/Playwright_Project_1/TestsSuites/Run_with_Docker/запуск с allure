@@ -1,0 +1,34 @@
+Для Playwright НЕ нужен browsers.json!
+Playwright = встроенные браузеры + готовый Docker образ
+
+docker compose up -d playwright-server
+docker compose up -d chromium-vnc
+
+
+# Шаг 1: Тесты → XML
+pytest test_fixture.py --alluredir=allure-reports -v -s
+
+# Шаг 2: XML → HTML
+allure generate allure-reports/ -o allure-report/ --clean
+
+# Шаг 3: Открыть
+allure open allure-report/
+
+
+Все запущено?
+docker-compose ps
+
+Логи VNC
+docker-compose logs chromium-vnc
+
+Статус портов
+netstat -ano | findstr "5900 7900"
+
+# Порты слушают?
+netstat -ano | findstr "5900 7900 3000"
+
+# Playwright сервер
+curl http://localhost:3000
+
+# Логи (все ОК)
+docker-compose logs -f playwright-server

@@ -1,0 +1,11 @@
+2026-04-09 07:58:14,287 INFO Set uid to user 1001 succeeded
+2026-04-09 07:58:14,312 INFO supervisord started with pid 1
+2026-04-09 07:58:15,327 INFO spawned: 'vnc' with pid 7
+2026-04-09 07:58:15,366 INFO spawned: 'fluxbox' with pid 8
+2026-04-09 07:58:15,401 INFO spawned: 'playwright' with pid 9
+2026-04-09 07:58:16,412 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:58:16,416 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:58:16,418 INFO success: playwright entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:58:23,434 INFO reaped unknown pid 45 (exit status 127)
+2026-04-09 08:07:30,387 WARN received SIGTERM indicating exit request
+2026-04-09 08:07:30,446 INFO waiting for vnc, fluxbox, playwright to die

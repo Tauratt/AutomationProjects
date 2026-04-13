@@ -1,0 +1,77 @@
+2026-04-09 06:43:41,756 INFO Set uid to user 1001 succeeded
+2026-04-09 06:43:41,778 INFO supervisord started with pid 1
+2026-04-09 06:43:42,795 INFO spawned: 'vnc' with pid 8
+2026-04-09 06:43:42,807 INFO spawned: 'fluxbox' with pid 9
+2026-04-09 06:43:42,820 INFO spawned: 'playwright' with pid 10
+2026-04-09 06:43:43,960 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:43:43,968 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:43:43,971 INFO success: playwright entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:43:48,723 INFO reaped unknown pid 46 (exit status 127)
+2026-04-09 06:47:33,129 WARN received SIGTERM indicating exit request
+2026-04-09 06:52:44,297 INFO Set uid to user 1001 succeeded
+2026-04-09 06:52:44,312 INFO supervisord started with pid 1
+2026-04-09 06:52:45,323 INFO spawned: 'vnc' with pid 8
+2026-04-09 06:52:45,330 INFO spawned: 'fluxbox' with pid 9
+2026-04-09 06:52:45,340 INFO spawned: 'playwright' with pid 10
+2026-04-09 06:52:45,462 WARN exited: fluxbox (exit status 1; not expected)
+2026-04-09 06:52:47,052 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:52:47,060 INFO spawned: 'fluxbox' with pid 19
+2026-04-09 06:52:47,063 INFO success: playwright entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:52:48,094 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:52:51,605 INFO reaped unknown pid 47 (exit status 127)
+2026-04-09 06:54:44,603 WARN received SIGTERM indicating exit request
+2026-04-09 06:54:44,639 INFO waiting for vnc, fluxbox, playwright to die
+2026-04-09 06:57:21,101 INFO Set uid to user 1001 succeeded
+2026-04-09 06:57:21,133 INFO supervisord started with pid 1
+2026-04-09 06:57:22,144 INFO spawned: 'vnc' with pid 8
+2026-04-09 06:57:22,156 INFO spawned: 'fluxbox' with pid 9
+2026-04-09 06:57:22,165 INFO spawned: 'playwright' with pid 10
+2026-04-09 06:57:22,286 WARN exited: fluxbox (exit status 1; not expected)
+2026-04-09 06:57:22,305 WARN exited: vnc (exit status 1; not expected)
+2026-04-09 06:57:23,312 INFO spawned: 'vnc' with pid 17
+2026-04-09 06:57:23,323 INFO spawned: 'fluxbox' with pid 18
+2026-04-09 06:57:23,326 INFO success: playwright entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:57:23,351 WARN exited: fluxbox (exit status 1; not expected)
+2026-04-09 06:57:24,381 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:57:25,579 INFO spawned: 'fluxbox' with pid 44
+2026-04-09 06:57:26,451 INFO reaped unknown pid 49 (exit status 127)
+2026-04-09 06:57:27,261 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 06:59:33,029 WARN received SIGTERM indicating exit request
+2026-04-09 06:59:33,055 INFO waiting for vnc, fluxbox, playwright to die
+2026-04-09 07:01:37,558 INFO Set uid to user 1001 succeeded
+2026-04-09 07:01:37,574 INFO supervisord started with pid 1
+2026-04-09 07:01:38,580 INFO spawned: 'vnc' with pid 8
+2026-04-09 07:01:38,586 INFO spawned: 'fluxbox' with pid 9
+2026-04-09 07:01:38,596 INFO spawned: 'playwright' with pid 10
+2026-04-09 07:01:38,661 WARN exited: fluxbox (exit status 1; not expected)
+2026-04-09 07:01:39,819 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:01:39,827 INFO spawned: 'fluxbox' with pid 20
+2026-04-09 07:01:39,829 INFO success: playwright entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:01:40,187 INFO reaped unknown pid 29 (exit status 127)
+2026-04-09 07:01:41,337 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:39:41,751 WARN received SIGTERM indicating exit request
+2026-04-09 07:39:41,829 INFO waiting for vnc, fluxbox, playwright to die
+2026-04-09 07:41:40,696 INFO Set uid to user 1001 succeeded
+2026-04-09 07:41:40,731 INFO supervisord started with pid 1
+2026-04-09 07:41:41,740 INFO spawned: 'vnc' with pid 9
+2026-04-09 07:41:41,749 INFO spawned: 'fluxbox' with pid 10
+2026-04-09 07:41:41,760 INFO spawned: 'playwright' with pid 11
+2026-04-09 07:41:41,902 WARN exited: fluxbox (exit status 1; not expected)
+2026-04-09 07:41:42,753 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:41:42,754 INFO success: playwright entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:41:43,976 INFO spawned: 'fluxbox' with pid 20
+2026-04-09 07:41:45,175 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:41:50,195 INFO reaped unknown pid 48 (exit status 127)
+2026-04-09 07:48:10,909 WARN received SIGTERM indicating exit request
+2026-04-09 07:48:10,959 INFO waiting for vnc, fluxbox, playwright to die
+2026-04-09 07:48:29,028 INFO Set uid to user 1001 succeeded
+2026-04-09 07:48:29,048 INFO supervisord started with pid 1
+2026-04-09 07:48:30,068 INFO spawned: 'vnc' with pid 8
+2026-04-09 07:48:30,116 INFO spawned: 'fluxbox' with pid 9
+2026-04-09 07:48:30,154 INFO spawned: 'playwright' with pid 10
+2026-04-09 07:48:31,134 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:48:31,134 INFO success: fluxbox entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:48:31,135 INFO success: playwright entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2026-04-09 07:48:35,961 INFO reaped unknown pid 46 (exit status 127)
+2026-04-09 07:57:50,706 WARN received SIGTERM indicating exit request
+2026-04-09 07:57:50,779 INFO waiting for vnc, fluxbox, playwright to die
