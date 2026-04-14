@@ -15,6 +15,7 @@ from Playwright_with_Fixture.Playwright_Project_1.Async.utilities.utils import l
 from Playwright_with_Fixture.Playwright_Project_1.Async.fixtures.conftest import (browser_session_chromium,
     browser_session_firefox, universal_browsers_sessions, browser_session)
 import pytest_asyncio
+pytestmark = pytest.mark.asyncio
 
 async def run_test_suite(page, name_browser: str):
     """
