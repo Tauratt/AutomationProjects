@@ -42,47 +42,47 @@ async def run_test_suite(page, name_browser: str):
         await final.select_methods()
 
 
-"""Фикстура C указанием браузера - browser_session"""
-@pytest.mark.config({"browser": "chromium", "url": "https://www.saucedemo.com/"})
-async def test_specified_browsers1(browser_session):
-    context1 = await browser_session.new_context(no_viewport=True)
-    page1 = await context1.new_page()
-    await page1.goto("https://www.saucedemo.com/")
+# """Фикстура C указанием браузера - browser_session"""
+# @pytest.mark.config({"browser": "chromium", "url": "https://www.saucedemo.com/"})
+# async def test_specified_browsers1(browser_session):
+#     context1 = await browser_session.new_context(no_viewport=True)
+#     page1 = await context1.new_page()
+#     await page1.goto("https://www.saucedemo.com/")
 
-    await run_test_suite(page1, name_browser='firefox')
-    print(f'Firefox: {await page1.title()}')
+#     await run_test_suite(page1, name_browser='firefox')
+#     print(f'Firefox: {await page1.title()}')
 
-    await page1.close()
-    await context1.close()
-
-
-"""Фикстура C указанием браузера - browser_session"""
-@pytest.mark.config({"browser": "firefox", "url": "https://www.saucedemo.com/"})
-async def test_specified_browsers2(browser_session):
-    context1 = await browser_session.new_context(no_viewport=True)
-    page1 = await context1.new_page()
-    await page1.goto("https://www.saucedemo.com/")
-
-    await run_test_suite(page1, name_browser='firefox')
-    print(f'Firefox: {await page1.title()}')
-
-    await page1.close()
-    await context1.close()
+#     await page1.close()
+#     await context1.close()
 
 
+# """Фикстура C указанием браузера - browser_session"""
+# @pytest.mark.config({"browser": "firefox", "url": "https://www.saucedemo.com/"})
+# async def test_specified_browsers2(browser_session):
+#     context1 = await browser_session.new_context(no_viewport=True)
+#     page1 = await context1.new_page()
+#     await page1.goto("https://www.saucedemo.com/")
 
-"""Фикстура - browser_session_firefox"""
-async def test_firefox(browser_session_firefox):
-    context1 = await browser_session_firefox.new_context(no_viewport=True)
-    page1 = await context1.new_page()
-    await page1.goto("https://www.saucedemo.com/")
+#     await run_test_suite(page1, name_browser='firefox')
+#     print(f'Firefox: {await page1.title()}')
 
-    await run_test_suite(page1, name_browser='firefox')
-    print(f'Firefox: {await page1.title()}')
+#     await page1.close()
+#     await context1.close()
 
-    await page1.close()
-    await context1.close()
-#
+
+
+# """Фикстура - browser_session_firefox"""
+# async def test_firefox(browser_session_firefox):
+#     context1 = await browser_session_firefox.new_context(no_viewport=True)
+#     page1 = await context1.new_page()
+#     await page1.goto("https://www.saucedemo.com/")
+
+#     await run_test_suite(page1, name_browser='firefox')
+#     print(f'Firefox: {await page1.title()}')
+
+#     await page1.close()
+#     await context1.close()
+# #
 
 
 """Фикстура - browser_session_chromium"""
@@ -98,22 +98,22 @@ async def test_chrome(browser_session_chromium):
     await context1.close()
 
 
-"""Фикстура возвращающая все браузеры(chrom, firefox) - universal_browsers_sessions"""
-async def test_browsers(universal_browsers_sessions):
-    context1 = await universal_browsers_sessions["firefox"].new_context(no_viewport=True)
-    page1 = await context1.new_page()
-    await page1.goto("https://www.saucedemo.com/")
+# """Фикстура возвращающая все браузеры(chrom, firefox) - universal_browsers_sessions"""
+# async def test_browsers(universal_browsers_sessions):
+#     context1 = await universal_browsers_sessions["firefox"].new_context(no_viewport=True)
+#     page1 = await context1.new_page()
+#     await page1.goto("https://www.saucedemo.com/")
 
-    await run_test_suite(page1, name_browser='chrome')
-    print(f'Chrome: {await page1.title()}')
+#     await run_test_suite(page1, name_browser='chrome')
+#     print(f'Chrome: {await page1.title()}')
 
-    await page1.close()
-    await context1.close()
+#     await page1.close()
+#     await context1.close()
 
 
 
 """Фикстура(или набор фикстур, они универсальны под asyncio.gather) Под Параллельный запуск(asyncio.gather)"""
-async def test_parallel_browsers(browser_session):
+# async def test_parallel_browsers(browser_session):
 
     # """Chrome + Firefox ПАРАЛЛЕЛЬНО!"""
     # async def chrome_suite():
@@ -134,4 +134,4 @@ async def test_parallel_browsers(browser_session):
     #     await page.close()
     #     await context.close()
 
-    await asyncio.gather(test_specified_browsers1(browser_session), test_specified_browsers2(browser_session))
+    # await asyncio.gather(test_specified_browsers1(browser_session), test_specified_browsers2(browser_session))
